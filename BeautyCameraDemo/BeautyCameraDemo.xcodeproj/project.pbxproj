@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56737F874C198885620B814C /* libPods-BeautyCameraDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E7356C7CF8E04E4B746F73 /* libPods-BeautyCameraDemo.a */; };
+		DBD815041FE25B2600E38492 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD815031FE25B2600E38492 /* main.m */; };
+		DBD815071FE25B2600E38492 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD815061FE25B2600E38492 /* AppDelegate.m */; };
+		DBD8150A1FE25B2600E38492 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD815091FE25B2600E38492 /* ViewController.m */; };
+		DBD8150D1FE25B2600E38492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD8150B1FE25B2600E38492 /* Main.storyboard */; };
+		DBD8150F1FE25B2600E38492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD8150E1FE25B2600E38492 /* Assets.xcassets */; };
+		DBD815121FE25B2600E38492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD815101FE25B2600E38492 /* LaunchScreen.storyboard */; };
+		DBD8151F1FE2615900E38492 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD8151E1FE2615900E38492 /* GPUImageBeautifyFilter.m */; };
+		DBD815221FE2617100E38492 /* BeautyCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD815211FE2617100E38492 /* BeautyCameraView.m */; };
+		DBD815251FE2625900E38492 /* GPUImageMovieWriterEx.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD815241FE2625900E38492 /* GPUImageMovieWriterEx.m */; };
+		DBD815291FE2731000E38492 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD815271FE2731000E38492 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		258DC7DFC457FACE7BE6F843 /* Pods-BeautyCameraDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyCameraDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeautyCameraDemo/Pods-BeautyCameraDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		52B5B29D24B970FD6304A16B /* Pods-BeautyCameraDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeautyCameraDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeautyCameraDemo/Pods-BeautyCameraDemo.release.xcconfig"; sourceTree = "<group>"; };
+		64E7356C7CF8E04E4B746F73 /* libPods-BeautyCameraDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeautyCameraDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD814FF1FE25B2600E38492 /* BeautyCameraDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyCameraDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD815031FE25B2600E38492 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBD815051FE25B2600E38492 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBD815061FE25B2600E38492 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBD815081FE25B2600E38492 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBD815091FE25B2600E38492 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBD8150C1FE25B2600E38492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBD8150E1FE25B2600E38492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBD815111FE25B2600E38492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBD815131FE25B2600E38492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD8151D1FE2615900E38492 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		DBD8151E1FE2615900E38492 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		DBD815201FE2617100E38492 /* BeautyCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeautyCameraView.h; sourceTree = "<group>"; };
+		DBD815211FE2617100E38492 /* BeautyCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeautyCameraView.m; sourceTree = "<group>"; };
+		DBD815231FE2625900E38492 /* GPUImageMovieWriterEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageMovieWriterEx.h; sourceTree = "<group>"; };
+		DBD815241FE2625900E38492 /* GPUImageMovieWriterEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageMovieWriterEx.m; sourceTree = "<group>"; };
+		DBD815261FE2731000E38492 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		DBD815271FE2731000E38492 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		DBD8152B1FE274AB00E38492 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBD8152D1FE274E700E38492 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD814FC1FE25B2600E38492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56737F874C198885620B814C /* libPods-BeautyCameraDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28398B971B913B613E7F4A46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				258DC7DFC457FACE7BE6F843 /* Pods-BeautyCameraDemo.debug.xcconfig */,
+				52B5B29D24B970FD6304A16B /* Pods-BeautyCameraDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5491CCFBB33A7486DBEC88AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD8152D1FE274E700E38492 /* QuartzCore.framework */,
+				DBD8152B1FE274AB00E38492 /* CoreGraphics.framework */,
+				64E7356C7CF8E04E4B746F73 /* libPods-BeautyCameraDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBD814F61FE25B2600E38492 = {
+			isa = PBXGroup;
+			children = (
+				DBD815011FE25B2600E38492 /* BeautyCameraDemo */,
+				DBD815001FE25B2600E38492 /* Products */,
+				28398B971B913B613E7F4A46 /* Pods */,
+				5491CCFBB33A7486DBEC88AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD815001FE25B2600E38492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD814FF1FE25B2600E38492 /* BeautyCameraDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD815011FE25B2600E38492 /* BeautyCameraDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DBD8151C1FE2615900E38492 /* BeautyCameraView */,
+				DBD815051FE25B2600E38492 /* AppDelegate.h */,
+				DBD815061FE25B2600E38492 /* AppDelegate.m */,
+				DBD815081FE25B2600E38492 /* ViewController.h */,
+				DBD815091FE25B2600E38492 /* ViewController.m */,
+				DBD815261FE2731000E38492 /* TestViewController.h */,
+				DBD815271FE2731000E38492 /* TestViewController.m */,
+				DBD8150B1FE25B2600E38492 /* Main.storyboard */,
+				DBD8150E1FE25B2600E38492 /* Assets.xcassets */,
+				DBD815101FE25B2600E38492 /* LaunchScreen.storyboard */,
+				DBD815131FE25B2600E38492 /* Info.plist */,
+				DBD815021FE25B2600E38492 /* Supporting Files */,
+			);
+			path = BeautyCameraDemo;
+			sourceTree = "<group>";
+		};
+		DBD815021FE25B2600E38492 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBD815031FE25B2600E38492 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBD8151C1FE2615900E38492 /* BeautyCameraView */ = {
+			isa = PBXGroup;
+			children = (
+				DBD815231FE2625900E38492 /* GPUImageMovieWriterEx.h */,
+				DBD815241FE2625900E38492 /* GPUImageMovieWriterEx.m */,
+				DBD8151D1FE2615900E38492 /* GPUImageBeautifyFilter.h */,
+				DBD8151E1FE2615900E38492 /* GPUImageBeautifyFilter.m */,
+				DBD815201FE2617100E38492 /* BeautyCameraView.h */,
+				DBD815211FE2617100E38492 /* BeautyCameraView.m */,
+			);
+			path = BeautyCameraView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD814FE1FE25B2600E38492 /* BeautyCameraDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD815161FE25B2600E38492 /* Build configuration list for PBXNativeTarget "BeautyCameraDemo" */;
+			buildPhases = (
+				ECE37F71CDB0291934E07545 /* [CP] Check Pods Manifest.lock */,
+				DBD814FB1FE25B2600E38492 /* Sources */,
+				DBD814FC1FE25B2600E38492 /* Frameworks */,
+				DBD814FD1FE25B2600E38492 /* Resources */,
+				AB09EE7AB802A41E6E8CEC2B /* [CP] Embed Pods Frameworks */,
+				FBBA4BAC0C90728E93A2C11C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautyCameraDemo;
+			productName = BeautyCameraDemo;
+			productReference = DBD814FF1FE25B2600E38492 /* BeautyCameraDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD814F71FE25B2600E38492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Benight;
+				TargetAttributes = {
+					DBD814FE1FE25B2600E38492 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DBD814FA1FE25B2600E38492 /* Build configuration list for PBXProject "BeautyCameraDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBD814F61FE25B2600E38492;
+			productRefGroup = DBD815001FE25B2600E38492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD814FE1FE25B2600E38492 /* BeautyCameraDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD814FD1FE25B2600E38492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD815121FE25B2600E38492 /* LaunchScreen.storyboard in Resources */,
+				DBD8150F1FE25B2600E38492 /* Assets.xcassets in Resources */,
+				DBD8150D1FE25B2600E38492 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB09EE7AB802A41E6E8CEC2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeautyCameraDemo/Pods-BeautyCameraDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE37F71CDB0291934E07545 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeautyCameraDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBBA4BAC0C90728E93A2C11C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BeautyCameraDemo/Pods-BeautyCameraDemo-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeautyCameraDemo/Pods-BeautyCameraDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD814FB1FE25B2600E38492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD8150A1FE25B2600E38492 /* ViewController.m in Sources */,
+				DBD8151F1FE2615900E38492 /* GPUImageBeautifyFilter.m in Sources */,
+				DBD815291FE2731000E38492 /* TestViewController.m in Sources */,
+				DBD815071FE25B2600E38492 /* AppDelegate.m in Sources */,
+				DBD815041FE25B2600E38492 /* main.m in Sources */,
+				DBD815221FE2617100E38492 /* BeautyCameraView.m in Sources */,
+				DBD815251FE2625900E38492 /* GPUImageMovieWriterEx.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBD8150B1FE25B2600E38492 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD8150C1FE25B2600E38492 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBD815101FE25B2600E38492 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD815111FE25B2600E38492 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBD815141FE25B2600E38492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBD815151FE25B2600E38492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBD815171FE25B2600E38492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258DC7DFC457FACE7BE6F843 /* Pods-BeautyCameraDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautyCameraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Benight.BeautyCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBD815181FE25B2600E38492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B5B29D24B970FD6304A16B /* Pods-BeautyCameraDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautyCameraDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Benight.BeautyCameraDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD814FA1FE25B2600E38492 /* Build configuration list for PBXProject "BeautyCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD815141FE25B2600E38492 /* Debug */,
+				DBD815151FE25B2600E38492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD815161FE25B2600E38492 /* Build configuration list for PBXNativeTarget "BeautyCameraDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD815171FE25B2600E38492 /* Debug */,
+				DBD815181FE25B2600E38492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD814F71FE25B2600E38492 /* Project object */;
+}
